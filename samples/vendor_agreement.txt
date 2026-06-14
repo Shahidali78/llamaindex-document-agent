@@ -1,0 +1,40 @@
+SOFTWARE SUBSCRIPTION & SUPPORT AGREEMENT
+
+This Software Subscription & Support Agreement ("Agreement") is made effective
+June 12, 2025 between Brightpath Software Inc. ("Vendor") and Acme Retail
+Corporation ("Customer").
+
+1. LICENSE & SERVICES
+Vendor grants Customer a non-exclusive subscription to the Brightpath Inventory
+Platform, including standard support and product updates.
+
+2. TERM
+The subscription runs for twenty-four (24) months from the effective date and
+renews automatically for twelve-month terms unless cancelled with thirty (30)
+days' written notice prior to renewal.
+
+3. FEES AND PAYMENT
+The annual subscription fee is $96,000 USD, billed annually in advance. A
+one-time implementation fee of $20,000 USD applies. Invoices are due net forty-
+five (45) days. Late balances accrue interest at 1.0% per month.
+
+4. SERVICE LEVELS
+Vendor commits to 99.5% monthly availability and will respond to high-priority
+incidents within eight (8) hours during business hours.
+
+5. DATA & SECURITY
+Vendor will encrypt Customer data at rest and in transit and undergo an annual
+SOC 2 Type II audit. Customer's administrator of record is Daniel Brooks.
+
+6. LIABILITY
+Vendor's aggregate liability is capped at the total fees paid in the prior
+twelve (12) months. Consequential damages are excluded for both parties.
+
+7. TERMINATION
+Either party may terminate for uncured material breach after a thirty (30) day
+cure period. Fees already paid are non-refundable except where required by law.
+
+8. SIGNATURES
+Vendor: Priya Nair, COO, Brightpath Software Inc.
+Customer: Maria Gonzalez, VP Operations, Acme Retail Corporation
+Date signed: June 12, 2025

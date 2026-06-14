@@ -1,0 +1,30 @@
+INVOICE
+
+Northwind Analytics LLC
+1200 Market Street, Suite 400
+Wilmington, DE 19801
+
+Invoice Number: NW-2025-0417
+Invoice Date: April 17, 2025
+Due Date: May 17, 2025
+
+Bill To:
+Acme Retail Corporation
+Attn: Accounts Payable
+500 Commerce Way, Columbus, OH 43215
+
+-------------------------------------------------------------
+Description                              Qty      Amount (USD)
+-------------------------------------------------------------
+Monthly analytics subscription (April)     1        $8,500.00
+Additional dashboard build                 1        $2,250.00
+Quarterly business review                  1        $1,500.00
+-------------------------------------------------------------
+Subtotal                                            $12,250.00
+Tax (0%)                                                 $0.00
+Total Due                                           $12,250.00
+-------------------------------------------------------------
+
+Payment terms: Net 30. Late payments accrue interest at 1.5% per month.
+Remit payment to Northwind Analytics LLC via ACH or wire transfer.
+Questions: billing@northwindanalytics.example — contact Robert Chen.

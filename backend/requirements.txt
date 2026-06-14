@@ -1,0 +1,28 @@
+# --- Web framework ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# --- Configuration & validation ---
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+
+# --- Database ---
+SQLAlchemy==2.0.36
+
+# --- LlamaIndex + OpenAI ---
+# Uses LlamaIndex's built-in local (SimpleVectorStore) persistence so no native
+# build toolchain is required. Swap in a vector DB (e.g. Chroma) for scale later.
+llama-index-core==0.12.11
+llama-index-llms-openai==0.3.13
+llama-index-embeddings-openai==0.3.1
+openai==1.59.6
+
+# --- Document parsing ---
+pypdf==5.1.0
+python-docx==1.1.2
+
+# --- Testing ---
+pytest==8.3.4
+httpx==0.28.1

@@ -1,0 +1,44 @@
+# Run the full stack: FastAPI backend + static React frontend (nginx).
+#
+#   1. cp .env.example .env   (then set OPENAI_API_KEY)
+#   2. docker compose up --build
+#
+# Backend  -> http://localhost:8000  (docs at /docs)
+# Frontend -> http://localhost:5173
+
+services:
+  backend:
+    build: ./backend
+    container_name: docintel-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - OPENAI_MODEL=${OPENAI_MODEL:-gpt-4o-mini}
+      - OPENAI_EMBEDDING_MODEL=${OPENAI_EMBEDDING_MODEL:-text-embedding-3-small}
+      - ENVIRONMENT=${ENVIRONMENT:-production}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - CORS_ORIGINS=${CORS_ORIGINS:-*}
+      - AUTH_ENABLED=${AUTH_ENABLED:-true}
+      - API_KEYS=${API_KEYS:-}
+      - ADMIN_API_TOKEN=${ADMIN_API_TOKEN:-}
+    volumes:
+      # Persist uploads, vector index, and SQLite DB across restarts.
+      - backend_data:/app/data
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        # Browser-reachable backend URL (baked in at build time by Vite).
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:8000}
+    container_name: docintel-frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  backend_data:

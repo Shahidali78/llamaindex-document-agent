@@ -1,0 +1,45 @@
+MASTER SERVICES AGREEMENT
+
+This Master Services Agreement ("Agreement") is entered into on March 3, 2025
+("Effective Date") by and between Northwind Analytics LLC ("Provider"), a
+Delaware limited liability company, and Acme Retail Corporation ("Client").
+
+1. SERVICES
+Provider shall deliver cloud-based data analytics services, including monthly
+reporting dashboards and quarterly business reviews, as described in Exhibit A.
+
+2. TERM
+The initial term is twelve (12) months commencing on the Effective Date and
+will automatically renew for successive twelve-month periods unless either party
+provides written notice of non-renewal at least sixty (60) days before the end
+of the then-current term.
+
+3. FEES AND PAYMENT
+Client shall pay Provider a monthly subscription fee of $8,500 USD. An initial
+onboarding fee of $15,000 USD is due within fifteen (15) days of the Effective
+Date. Invoices are payable net thirty (30) days. Late payments accrue interest
+at 1.5% per month.
+
+4. OBLIGATIONS
+Provider shall maintain 99.9% monthly uptime and respond to critical support
+tickets within four (4) hours. Client shall provide timely access to required
+data sources and designate a primary point of contact, Jane Whitfield.
+
+5. CONFIDENTIALITY
+Each party agrees to protect the other party's Confidential Information and to
+use it solely for purposes of performing under this Agreement.
+
+6. LIABILITY
+Provider's total aggregate liability shall not exceed the fees paid by Client in
+the twelve (12) months preceding the claim. Neither party is liable for
+indirect or consequential damages.
+
+7. TERMINATION
+Either party may terminate for material breach if the breach remains uncured
+thirty (30) days after written notice. Client may terminate for convenience with
+ninety (90) days' written notice, subject to payment for services rendered.
+
+8. SIGNATURES
+Provider: Robert Chen, CEO, Northwind Analytics LLC
+Client: Maria Gonzalez, VP Operations, Acme Retail Corporation
+Date signed: March 3, 2025
