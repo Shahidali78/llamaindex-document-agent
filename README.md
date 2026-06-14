@@ -98,6 +98,17 @@ npm run dev
 
 Open http://localhost:5173.
 
+### Option C — Deploy to Render (live demo)
+
+One-click via the bundled [Render Blueprint](render.yaml) — it provisions the
+Docker backend + static frontend together:
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Shahidali78/llamaindex-document-agent)
+
+You'll be prompted for `OPENAI_API_KEY`, `API_KEYS`, `ADMIN_API_TOKEN`, and the
+frontend's `VITE_API_BASE_URL`. Full step-by-step (incl. the frontend→backend URL
+step and free-tier caveats) in **[docs/DEPLOY.md](docs/DEPLOY.md)**.
+
 ---
 
 ## Try it with the sample documents
