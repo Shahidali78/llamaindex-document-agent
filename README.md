@@ -1,5 +1,10 @@
 # LlamaIndex AI Document Intelligence Platform
 
+[![CI](https://github.com/Shahidali78/llamaindex-document-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/Shahidali78/llamaindex-document-agent/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
+
 A SaaS-style document intelligence platform built with **LlamaIndex**. Upload
 documents, index them, then chat over them with RAG (answers cite their
 sources), extract structured fields, summarize, compare documents, and generate
@@ -37,6 +42,22 @@ reports.
 - 🔍 **Compare** two documents
 - 📊 **Generate** a downloadable Markdown intelligence report
 - ❤️ Health endpoint, logging, clean error handling, tests
+
+---
+
+## Screenshots
+
+> Drop your images in `docs/screenshots/` (PNG) using the names below and they
+> will render here. See [`docs/screenshots/README.md`](docs/screenshots/README.md)
+> for the suggested shots.
+
+| Documents & upload | Chat with citations |
+|---|---|
+| ![Documents view](docs/screenshots/documents.png) | ![Chat with sources](docs/screenshots/chat.png) |
+
+| Structured extraction | Usage dashboard |
+|---|---|
+| ![Extraction](docs/screenshots/extract.png) | ![Usage](docs/screenshots/usage.png) |
 
 ---
 
@@ -148,9 +169,11 @@ llamaindex-document-agent/
   backend/        FastAPI + LlamaIndex service (see backend/README.md)
   frontend/       React + Vite SPA (see frontend/README.md)
   samples/        Demo documents
+  docs/           Screenshots and supporting docs
   docker-compose.yml
   .github/workflows/ci.yml
   .env.example    Root env for docker compose
+  LICENSE         MIT
 ```
 
 ---
@@ -167,4 +190,9 @@ llamaindex-document-agent/
   (`GET /usage` for self, `GET /auth/usage` for an admin overview).
 - For production scale: swap the local vector store for a managed vector DB
   (Chroma/Qdrant/pgvector) and add per-user accounts / rate limiting.
-```
+
+---
+
+## License
+
+Released under the [MIT License](LICENSE) © 2026 Shahid Ali.
